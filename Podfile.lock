@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: 1c581bda8471e900b45dc80c08913359fa4a055a
+PODS:
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - RxSwift (4.3.1)
+  - XCGLogger (6.1.0):
+    - XCGLogger/Core (= 6.1.0)
+  - XCGLogger/Core (6.1.0):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - RxSwift
+  - XCGLogger
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjcExceptionBridging
+    - RxSwift
+    - XCGLogger
+
+SPEC CHECKSUMS:
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  XCGLogger: 7f7f43f15dfe3a305fa1342b7dc29af656289abd
+
+PODFILE CHECKSUM: 23bdd25346dcff1f06c9ed27e1eab0e83e3ccedf
 
 COCOAPODS: 1.5.3
