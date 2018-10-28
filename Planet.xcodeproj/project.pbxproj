@@ -31,6 +31,7 @@
 		5CA605EA2183435200ACF852 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA605E92183435200ACF852 /* DiscoverViewController.swift */; };
 		5CA605EC2183439D00ACF852 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA605EB2183439D00ACF852 /* FavoriteViewController.swift */; };
 		5CA605F6218344DD00ACF852 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA605F5218344DD00ACF852 /* TabBarController.swift */; };
+		5CD561702185C3BD005B008E /* TargetAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD5616F2185C3BD005B008E /* TargetAction.swift */; };
 		D040FCE9952B991938D60088 /* Pods_PlanetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121036D2949ABEFE06E0ED09 /* Pods_PlanetTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		5CA605E92183435200ACF852 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		5CA605EB2183439D00ACF852 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		5CA605F5218344DD00ACF852 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5CD5616F2185C3BD005B008E /* TargetAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAction.swift; sourceTree = "<group>"; };
 		5FFA383E53BAD859AE6D313D /* Pods-PlanetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanetUITests/Pods-PlanetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2EB3F41C24E0CCA18945F3C /* Pods_PlanetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBA6F766DB7D2DCE922FC40 /* Pods_Planet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +263,7 @@
 		5CA605D721833EA700ACF852 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				5CD5616E2185C3A2005B008E /* Targets */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -355,6 +358,14 @@
 				5CA605E22183423100ACF852 /* Service.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		5CD5616E2185C3A2005B008E /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				5CD5616F2185C3BD005B008E /* TargetAction.swift */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		AD07EB01F0129A81242B1E67 /* Pods */ = {
@@ -600,6 +611,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C73155E2180AA39008687A5 /* ViewController.swift in Sources */,
+				5CD561702185C3BD005B008E /* TargetAction.swift in Sources */,
 				5C364D0E21840BD9004E7318 /* PushNotificationsAppDelegate.swift in Sources */,
 				5CA605F6218344DD00ACF852 /* TabBarController.swift in Sources */,
 				5C73155C2180AA39008687A5 /* AppDelegate.swift in Sources */,
