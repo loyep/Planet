@@ -10,34 +10,35 @@ import UIKit
 
 // 控制器处理
 class ViewControllerAppDelegate: AppDelegateType {
-
-    var window: UIWindow?
-
+    
+    weak var window: UIWindow?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         print("根控制器设置代码")
-
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.backgroundColor = .white
-
-        let tabBar = TabBarController()
-
-        let nav = NavigationController(rootViewController: tabBar)
-        window.rootViewController = nav
-        self.window = window
-        self.window?.makeKeyAndVisible()
-
+        
+        let window = application.delegate!.window!!
+        
+//        let tabBar = TabBarController()
+//        let nav = NavigationController(rootViewController: tabBar)
+//        window.rootViewController = nav
+        
+        let startup = StartupViewController()
+        window.rootViewController = startup
+        
+        window.makeKeyAndVisible()
+        
         CommandProvider()
-                .setKeyWindow(self.window!)
-                .build()
-                .forEach {
-                    $0.execute()
-                }
-
+            .setKeyWindow(window)
+            .build()
+            .forEach {
+                $0.execute()
+        }
+        
         return true
     }
-
+    
     deinit {
         print("ViewControllerAppDelegate")
     }
-
+    
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		082579FE0ED5EB244DB36D86 /* Pods_Planet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBA6F766DB7D2DCE922FC40 /* Pods_Planet.framework */; };
 		0A1A12E8FE000D4494E64F7D /* Pods_PlanetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EB3F41C24E0CCA18945F3C /* Pods_PlanetUITests.framework */; };
+		5C35D674218604B7001A53A8 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35D673218604B7001A53A8 /* StartupViewController.swift */; };
 		5C364CFE2183530E004E7318 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C364CFD2183530E004E7318 /* NavigationController.swift */; };
 		5C364D0121835655004E7318 /* CommandProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C364D0021835655004E7318 /* CommandProvider.swift */; };
 		5C364D03218356F1004E7318 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C364D02218356F1004E7318 /* Command.swift */; };
@@ -57,6 +58,7 @@
 		121036D2949ABEFE06E0ED09 /* Pods_PlanetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B27B003E6B6A0EB40F157C6 /* Pods-PlanetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanetTests/Pods-PlanetTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3541C661A7D954443BD53E0B /* Pods-Planet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Planet/Pods-Planet.debug.xcconfig"; sourceTree = "<group>"; };
+		5C35D673218604B7001A53A8 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartupViewController.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
 		5C364CFD2183530E004E7318 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		5C364D0021835655004E7318 /* CommandProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandProvider.swift; sourceTree = "<group>"; };
 		5C364D02218356F1004E7318 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		5C364D1121840DD8004E7318 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5C35D673218604B7001A53A8 /* StartupViewController.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Planet/Pods-Planet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -552,6 +556,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +619,7 @@
 				5CD561702185C3BD005B008E /* TargetAction.swift in Sources */,
 				5C364D0E21840BD9004E7318 /* PushNotificationsAppDelegate.swift in Sources */,
 				5CA605F6218344DD00ACF852 /* TabBarController.swift in Sources */,
+				5C35D674218604B7001A53A8 /* StartupViewController.swift in Sources */,
 				5C73155C2180AA39008687A5 /* AppDelegate.swift in Sources */,
 				5CA605E82183433100ACF852 /* ProfileViewController.swift in Sources */,
 				5C364D1321840F16004E7318 /* ViewControllerAppDelegate.swift in Sources */,

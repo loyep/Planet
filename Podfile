@@ -6,8 +6,9 @@ target 'Planet' do
   use_frameworks!
 
   # Pods for Planet
-  pod "RxSwift"
-  pod "XCGLogger"
+  pod 'SnapKit'
+  pod 'RxSwift'
+  pod 'XCGLogger'
 
   target 'PlanetTests' do
     inherit! :search_paths
